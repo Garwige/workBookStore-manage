@@ -1,0 +1,42 @@
+//修改输入框的全局样式
+.el-form {
+  .el-row {
+    .el-col {
+      .el-form-item {
+        .el-form-item__content {
+          .el-select {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+  .el-form-item {
+    .el-form-item__content {
+      .el-select {
+        width: 100%;
+      }
+      .el-input {
+        .el-input__inner {
+          height: 30px;
+          border-radius: 0;
+        }
+      }
+    }
+  }
+}
+
+// 纠正表头与内容列对不齐问题
+body .el-table th.gutter{
+display: table-cell!important;
+}
+
+
+
+// .el-button {
+//   padding: 0 15px;
+//   border-radius: 0;
+//   height: 30px;
+//   line-height: 30px;
+//   text-align: center;
+// }
